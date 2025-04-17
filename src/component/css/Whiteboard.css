@@ -1,0 +1,41 @@
+/* src/components/Whiteboard.css */
+.whiteboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.color-picker {
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 150px;
+}
+
+.whiteboard-canvas {
+  border: 2px solid #000;
+  cursor: crosshair;
+}
+
+.custom-cursor {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
