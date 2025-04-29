@@ -46,12 +46,17 @@
   border-radius: 8px;
 }
 
-.gallery-image {
+/* .gallery-image {
   width: 100%;
   height: auto;
   display: block;
+} */
+.gallery-image {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image fits within the dimensions without distortion */
+  border-radius: 8px; /* Optional: Adds rounded corners */
 }
-
 .back-button {
   display: flex;
   align-items: center;

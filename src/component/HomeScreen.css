@@ -19,12 +19,13 @@
 }
 
 .heroTitle {
-  font-size: 32px;
+  font-size: 25px;
   color: white;
+  margin-top: 30%;
 }
 
 .heroSubtitle {
-  font-size: 18px;
+  font-size: 15px;
   color: white;
 }
 

@@ -140,14 +140,14 @@ const WeddingApp = () => {
     </div>
 
       {/* Photo Actions */}
-      {/* <div className="photoActions">
+       <div className="photoActions">
         <button
           className="photoActionButton"
           onClick={() => navigate('/gallery')}
         >
           View Gallery
         </button>
-      </div> */}
+      </div> 
 
       {/* Featured Moments */}
       <div className="featuredSection">
